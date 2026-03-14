@@ -62,10 +62,36 @@
         "*.prefab": "yaml",
         "*.unity": "yaml"
     },
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "openFiles",
+    "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "openFiles",
+    "dotnet.testWindow.disableAutoDiscovery": true,
+    "dotnet.testWindow.disableBuildOnRefresh": true,
+    "dotnet.testWindow.disableBuildOnRun": true,
+    "csharp.semanticHighlighting.enabled": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/bin/**": true,
+        "**/Library/**": true,
+        "**/Logs/**": true,
+        "**/obj/**": true,
+        "**/Temp/**": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/bin": true,
+        "**/Library": true,
+        "**/Logs": true,
+        "**/obj": true,
+        "**/Temp": true
+    },
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+    "omnisharp.projectFilesExcludePattern": "**/node_modules/**,**/.git/**,**/bower_components/**,**/Library/**,**/Logs/**,**/Temp/**,**/obj/**,**/bin/**",
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "My_project.slnx"
+    "dotnet.defaultSolution": "My_project.slnx",
+    "dotnetAcquisitionExtension.enableTelemetry": false
 }
