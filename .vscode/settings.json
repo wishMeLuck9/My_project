@@ -93,5 +93,7 @@
         "*.slnx": "*.csproj"
     },
     "dotnet.defaultSolution": "My_project.slnx",
-    "dotnetAcquisitionExtension.enableTelemetry": false
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "git.enabled": false,
+    "git.autoRepositoryDetection": false
 }
