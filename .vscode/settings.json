@@ -92,7 +92,7 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "My_project.slnx",
+    "dotnet.defaultSolution": "Challenge1_Plane_Programming.slnx",
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "git.enabled": false,
     "git.autoRepositoryDetection": false
